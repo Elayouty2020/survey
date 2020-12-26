@@ -1,0 +1,55 @@
+body {
+  font-family: Anaheim;
+  font-size: 1.2em;
+}
+.outside {
+  background-color: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+form {
+  width: 70%;
+  margin:auto;
+  background-color: #fff;
+  border: 1px solid #CCC;
+  border-radius: 2%;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+#descr {
+  font-size: 23px;
+  padding-left: 20px;
+}
+fieldset {
+  border: 1px solid lightgrey;
+  margin: 10px;
+
+}
+legend {
+  font-weight: 700;
+}
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: OrangeRed;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+button {
+  margin: .5em;
+  font-size: 1em;
+  color: white;
+  background-color: red;
+  text-transform: capitalize;
+  border: none;
+  padding: 5px;
+
+}
+#submitbutton{
+  display: flex;
+  justify-content:center;
+}
